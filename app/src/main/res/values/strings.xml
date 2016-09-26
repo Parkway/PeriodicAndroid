@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Periodic Table Game</string>
+    <string name="atomgame">I have selected the element </string>
+    <string name="elementbutton">Element Names</string>
+    <string name="atombutton">Atomic Numbers</string>
+    <string name="intro">There are 118 elements. This game is designed to help you learn the elements, and their corresponding atomic numbers. Which do you need practice with?</string>
 </resources>
