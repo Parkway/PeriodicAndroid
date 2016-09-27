@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Periodic Table Game</string>
     <string name="atomgame">I have selected the element </string>
+    <string name="elementgame">I have selected the element with atomic number </string>
     <string name="elementbutton">Element Names</string>
     <string name="atombutton">Atomic Numbers</string>
     <string name="helpme">Literally Everything.</string>

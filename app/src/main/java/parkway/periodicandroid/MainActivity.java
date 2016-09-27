@@ -5,7 +5,6 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Intent elements = new Intent(MainActivity.this, elementgame.class);
         MainActivity.this.startActivity(elements);
     }
-    public void helpme(String url) {
+    public void helpme(View view) {
         goToUrl("https://en.wikipedia.org/wiki/Periodic_table");
     }
     private void goToUrl (String url) {

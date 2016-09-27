@@ -17,5 +17,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:id="@+id/textView2"
-        tools:text="@string/atomgame" />
+        tools:text="@string/atomgame"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 </RelativeLayout>
