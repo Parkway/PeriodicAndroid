@@ -22,20 +22,31 @@
     <Button
         android:text="@string/elementbutton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="175dp"
         android:id="@+id/elementbutton"
+        android:onClick="elementgame"
         android:layout_below="@+id/atombutton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="168dp"
-        android:onClick="elementgame" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:text="@string/atombutton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="175dp"
         android:id="@+id/atombutton"
-        android:layout_marginTop="91dp"
+        android:layout_marginTop="10dp"
         android:onClick="atomgame"
         android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/elementbutton"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button"
+        android:text="@string/helpme"
+        android:onClick="helpme"
+        android:layout_alignParentBottom="true" />
 </RelativeLayout>
