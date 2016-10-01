@@ -2,6 +2,7 @@ package parkway.periodicandroid;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class elementgame extends AppCompatActivity {
 
@@ -10,7 +11,7 @@ public class elementgame extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_elementgame);
     }
-    public static void main(String[] args) {
+    public void main(String[] args) {
         String[] elementList = {"","Hydrogen","Helium", "Lithium", "Beryllium", "Boron", "Carbon", "Nitrogen", "" +
                 "Oxygen", "Fluorine", "Neon", "Sodium", "Magnesium", "Aluminum", "Silicon", "Phosphorous", "Sulfur", "" +
                 "Chlorine", "Argon", "Potassium", "Calcium", "Scandium", "Titanium", "Vanadium", "Chromium", "Manganese", "" +
@@ -29,5 +30,8 @@ public class elementgame extends AppCompatActivity {
         int elementLength = elementList.length; //Determines length of elementList{}
         int elementNumber = (int) (Math.random() * elementLength); //Pulls random number from elementLength()
         String elementName = elementList[elementNumber]; //Converts number back to string for initial input.
+
+        TextView elementgame = (TextView) findViewById(R.id.textView3);
+        elementgame.setText("The element I have selected is " + elementName + ". What is " + elementName + "'s Atomic Number?");
     }
 }

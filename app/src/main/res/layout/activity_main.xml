@@ -17,7 +17,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         tools:text="@string/intro"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:text="@string/intro" />
 
     <Button
         android:text="@string/elementbutton"
